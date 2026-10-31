@@ -1,0 +1,136 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/app/globals.css",
+    "baseColor": "slate",
+    "cssVariables": true
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "componentRegistry": {
+    "button": {
+      "name": "button",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "input": {
+      "name": "input",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "card": {
+      "name": "card",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "dialog": {
+      "name": "dialog",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "dialog-primitive"
+      ]
+    },
+    "popover": {
+      "name": "popover",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "popover-primitive"
+      ]
+    },
+    "select": {
+      "name": "select",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "select-primitive"
+      ]
+    },
+    "form": {
+      "name": "form",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "cmdk",
+        "react-hook-form",
+        "zod",
+        "@hookform/resolvers/zod",
+        "sonner",
+        "date-fns"
+      ]
+    },
+    "table": {
+      "name": "table",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "tabs": {
+      "name": "tabs",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "toaster": {
+      "name": "toaster",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "sheet": {
+      "name": "sheet",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "dropdown-menu": {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "label": {
+      "name": "label",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "separator": {
+      "name": "separator",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "skeleton": {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "avatar": {
+      "name": "avatar",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "radix-ui/react-avatar"
+      ]
+    },
+    "tooltip": {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "switch": {
+      "name": "switch",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "checkbox": {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "registryDependencies": []
+    },
+    "radio-group": {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "registryDependencies": []
+    }
+  }
+}
